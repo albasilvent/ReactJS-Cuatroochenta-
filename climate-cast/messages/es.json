@@ -1,0 +1,23 @@
+{
+    "Page": {
+      "sidebar-title": "Configuración",
+      "search-title": "Seleccionar ciudad",
+      "search-button": "Buscar",
+      "select-placeholder": "Ciudad",
+      "contact" : "Contacta con nosotros",
+      "name" : "Nombre",
+      "surname": "Apellidos",
+      "birthdate": "Fecha de nacimiento",
+      "city": "Ciudad",
+      "phone": "Teléfono",
+      "submit": "Enviar",
+      "today-forecast": "TIEMPO DE HOY",
+      "additional-info": "INFORMACIÓN ADICIONAL",
+      "thermal-sensation": "Sensación Térmica",
+      "wind": "Viento",
+      "5-day-forecast": "TIEMPO DE LA SEMANA",
+      "perfect": "Perfecto",
+      "message-sent": "¡El mensaje se ha mandado con éxito!",
+      "required": "Este campo es obligatorio"
+    }
+  }

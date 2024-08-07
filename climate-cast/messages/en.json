@@ -1,0 +1,26 @@
+{
+   
+    "Page": {
+      "sidebar-title": "Configuration",
+      "search-title": "Select city",
+      "search-button": "Search",
+      "select-placeholder": "City",
+      "contact" : "Contact Us",
+      "name" : "Name",
+      "surname": "Surname",
+      "birthdate": "Birthdate",
+      "city": "City",
+      "phone": "Phone",
+      "submit": "Submit",
+      "today-forecast": "TODAY'S FORECAST",
+      "additional-info": "ADDITIONAL INFO",
+      "thermal-sensation": "Thermal Sensation",
+      "wind": "wind",
+      "5-day-forecast": "5-DAY FORECAST",
+      "perfect": "Perfect",
+      "message-sent": "The message has been sent successfully!",
+      "required": "This field is required"
+      
+    }
+
+  }
