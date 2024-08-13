@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 import { BackgroundImage } from "@mantine/core";
 import { usePathname } from "next/navigation";
 import Header from "./components/header/Header";
-import clear from "../../../public/clear.jpg";
 import SideBar from "./components/sidebar/Sidebar";
 import WeatherCard from "./components/weatherCard/WeatherCard";
 import CityData from "./interfaces/CityData";
@@ -54,7 +53,7 @@ export default function HomePage() {
 
     return (
         <>
-            <BackgroundImage src={clear.src} className={"w-screen h-screen"}>
+            <BackgroundImage src="/clear.jpg" className={"w-screen h-screen"}>
                 <div className="relative w-screen h-screen flex flex-wrap bg-sky-50 items-center justify-around p-4">
                     <Header
                         selectedLanguage={selectedLanguage}

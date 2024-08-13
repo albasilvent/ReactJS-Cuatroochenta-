@@ -1,7 +1,6 @@
 "use client";
 
 import { BackgroundImage } from "@mantine/core";
-import clear from "../../../../../public/clear.jpg";
 
 import ContactModal from "./ContactModal";
 import CityData from "../../interfaces/CityData";
@@ -31,7 +30,7 @@ export default function SideBar({
                     >
                         <div className="relative h-full w-full rounded-xl shadow-gray-500">
                             <BackgroundImage
-                                src={clear.src}
+                                src="/clear.jpg"
                                 radius={15}
                                 className={`shadow-gray-500 shadow-lg absolute inset-0 z-0 transition-transform duration-300 hover:grayscale-0`}
                                 style={{

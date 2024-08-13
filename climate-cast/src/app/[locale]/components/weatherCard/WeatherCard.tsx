@@ -1,7 +1,6 @@
 "use client";
 
 import { BackgroundImage } from "@mantine/core";
-import clear from "../../../../../public/clear.jpg";
 import { lato_light } from "../../fonts";
 import { WeatherSvg } from "weather-icons-animated";
 import TodayForecast from "./TodayForecast";
@@ -62,7 +61,7 @@ export default function WeatherCard({
 
     return (
         <BackgroundImage
-            src={clear.src}
+            src="/clear.jpg"
             style={{
                 width: "75vw",
                 position: "relative",
